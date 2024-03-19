@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/v1/person/save?type=EXTERNAL
+Content-Type: application/xml
+
+<Person>
+    <personId>2</personId>
+    <firstName>John2</firstName>
+    <lastName>Doe2</lastName>
+    <mobile>123456789</mobile>
+    <email>johnDoe1@gmail.com</email>
+    <pesel>96010115345</pesel>
+</Person>
